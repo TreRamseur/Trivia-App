@@ -54,7 +54,7 @@ header{
    gap: 1rem;
 }
 
-/*Category ccard styles*/
+/*Category card styles*/
 
 .category .card-header, .score .card-header{
     justify-content: center;
