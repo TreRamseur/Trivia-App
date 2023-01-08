@@ -146,10 +146,6 @@ function submitAnswer() {
         answerSubmitted.classList.add('wrong');
     }
 
-    if(e.target.value === questions[counter].correctAnswer) {
-        score += 1;
-    }
-
     setTimeout(nextQuestion, 1500);
 }
 
